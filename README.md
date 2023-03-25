@@ -1,92 +1,62 @@
 # 5g-observability-using-amazon-sagemaker
 
+Welcome to our workshop! This is a comprehensive guide to help you understand the Machine Learning (ML) use case and get started with the workshop modules.
 
+---
 
-## Getting started
+## Introduction to the Use Case
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+5G network slicing enables operators to create multiple independent logical networks for supporting different services over a common infrastructure. Each slice consists of a collection of virtual functions for a core network (CN) and a radio access network (RAN), and is customized to address the need of specific applications and services. 5G observability refers to the ability to monitor and analyze the performance of 5G networks. Due to the virtualization nature of network slicing, 5G observability is essential to assure and automate thousands of network slices in real-time.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+5G accessibility is a crucial KPI of 5G networks that has a significant impact on both user experience and customer loyalty. 5G accessibility depends on systems related to 5G radio parameters, random access control, paging control, and admission control. By monitoring the parameters of the above systems, we can predict anomalies in 5G accessibility. This will allow the operators to proactively perform maintenance and prevent potential issues that may lead to customer dissatisfaction and service churn.
 
-## Add your files
+In this workshop, we use a dataset monitored at different cell towers to build a machine learning model for predicting anomalies in 5G accessibility. The dataset includes a wide set of features. Here, we explain the associated terminology in the feature set:
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+|Abbreviation|Stands for|Description|
+|:----|:----|:----|
+|ca|Carrier Aggregaion|a technology that allows simultaneous use of multiple frequency blocks (carriers) to increase the data rate per user.|
+|*rrc*|Radio Resource Control|a protocol to control the allocation and management of radio resources between a UE (User Equipment) and the 5G network. The protocol consists of three main states: idle, connected, and inactive.|
+|*rach*|Random Access Channel|a wireless channel used by a UE to initiate a connection with the 5G network. The UE can use contention based RACH procedure, where the UE randomly generates and sends the RACH preamble. Contention may occur when multiple UEs generates the same RACH preamble.|
+|*sgnb*|Secondary gNB|another gNB base station that provides additional coverage for the UE, in addtional to the UE’s primary gNB.|
+|*rssi*|Received Signal Strength Indicator|a measurement of the signal strength of a wireless signal.|
+|*cce*|Control Channel Elements|a group of resources that carry control channel information between a UE and the base station.|
+|*bler*|Block Error Rate|the ratio of the number of blocks (data units) received in error to the total number of blocks transmitted.|
+|*drb*|Data Radio Bearer|a connection between the UE and the 5G network for user data transmission. Each DRB is associated with a QoS class of data traffic.|
+|*pdu session*|Protocol Data Unit session|an end-to-end connection between the UE and one or multiple data networks for transferring user data. A PDU session can include one or multiple DRBs.|
+
+---
+
+## Prerequisites
+
+Before you begin, please make sure you read the following prerequisites:
+
+1. Basic knowledge of machine learning concepts and techniques.
+2. Understanding of Python programming language and its libraries, such as NumPy, Pandas, and Scikit-learn.
+3. Familiarity with cloud computing platforms and services, especially Amazon Web Services (AWS).
+4. An AWS account with the necessary permissions to create and configure Amazon SageMaker instances, roles, and resources.
+
+If you do not have experience with these prerequisites, we recommend that you complete some basic online courses or tutorials before attending the workshop to get the most out of the training. Additionally, we recommend reviewing the Amazon SageMaker documentation and examples beforehand to become familiar with the service and its features.
+
+---
+## Get Started
+To get started, please clone this workshop repo:
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.aws.dev/jingswu/5g-observability-using-amazon-sagemaker.git
-git branch -M main
-git push -uf origin main
+
+git clone 
+
 ```
+---
+## Workshop Modules
 
-## Integrate with your tools
+Each module builds on top of the previous module and needs to be executed in sequence to get the most out of the workshop. However, if you are only interested in specific modules, you can execute the module 0: **[0_setup.ipynb](0_setup.ipynb)** to get the resources and parameters set up properly.
 
-- [ ] [Set up project integrations](https://gitlab.aws.dev/jingswu/5g-observability-using-amazon-sagemaker/-/settings/integrations)
+- [Module 1: Prepare your data with SageMaker Data Wrangler](1_dataprep.ipynb)
 
-## Collaborate with your team
+- [Module 2: Build Your Model with No-Code/Low-Code (NCLC): Canvas](2_canvas.ipynb)
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- [Module 2: Build Your Model with No-Code/Low-Code (NCLC): Autopilot](2_autopilot.ipynb)
+   
+- [Module 3: Build custom models using Studio Notebook](3_studio_notebook.ipynb)
 
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+- [Module 4: Productionalize your model using SageMaker Pipelines](4_e2e_pipeline.ipynb)

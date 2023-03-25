@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+__pycache__/
+data/iso_input.csv
+data/test.csv
+data/train.csv

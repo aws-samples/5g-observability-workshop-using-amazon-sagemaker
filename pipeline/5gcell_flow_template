@@ -53,50 +53,50 @@
           "5g_mobility_mwc_1": "float",
           "5g_retainability_mwc_1": "long",
           "number_of_5g_users": "float",
-          "5g_avg_ca_users_huaw": "long",
-          "5g_downlink_traffic_volume_huaw": "long",
-          "5g_number_of_users_huaw": "float",
-          "5g_rrc_connected_user_avg_huaw": "float",
-          "5g_rrc_connected_user_max_huaw": "long",
-          "5g_uplink_traffic_volume_huaw": "long",
-          "5g_nr_qos_flow_success_rate_den_huaw": "long",
-          "5g_nr_qos_flow_success_rate_num_huaw": "long",
-          "5g_pdu_session_establisment_success_rate_den_huaw": "long",
-          "5g_pdu_session_establisment_success_rate_num_huaw": "long",
-          "5g_rach_contention_rate_den_huaw": "long",
-          "5g_rach_contention_rate_num_huaw": "long",
-          "5g_rrc_restablishment_success_rate_den_huaw": "long",
-          "5g_rrc_restablishment_success_rate_num_huaw": "long",
-          "5g_rrc_setup_success_rate_den_huaw": "long",
-          "5g_rrc_setup_success_rate_num_huaw": "long",
+          "5g_avg_ca_users": "long",
+          "5g_downlink_traffic_volume": "long",
+          "5g_number_of_users": "float",
+          "5g_rrc_connected_user_avg": "float",
+          "5g_rrc_connected_user_max": "long",
+          "5g_uplink_traffic_volume": "long",
+          "5g_nr_qos_flow_success_rate_den": "long",
+          "5g_nr_qos_flow_success_rate_num": "long",
+          "5g_pdu_session_establisment_success_rate_den": "long",
+          "5g_pdu_session_establisment_success_rate_num": "long",
+          "5g_rach_contention_rate_den": "long",
+          "5g_rach_contention_rate_num": "long",
+          "5g_rrc_restablishment_success_rate_den": "long",
+          "5g_rrc_restablishment_success_rate_num": "long",
+          "5g_rrc_setup_success_rate_den": "long",
+          "5g_rrc_setup_success_rate_num": "long",
           "5g_sgnb_abnormal_release_rate": "long",
-          "5g_sgnb_abnormal_release_rate_den_huaw": "long",
-          "5g_sgnb_abnormal_release_rate_num_huaw": "long",
-          "5g_sgnb_added_success_rate_den_huaw": "long",
-          "5g_sgnb_added_success_rate_num_huaw": "long",
-          "5g_sgnb_drb_addition_success_rate_den_huaw": "long",
-          "5g_sgnb_drb_addition_success_rate_num_huaw": "long",
+          "5g_sgnb_abnormal_release_rate_den": "long",
+          "5g_sgnb_abnormal_release_rate_num": "long",
+          "5g_sgnb_added_success_rate_den": "long",
+          "5g_sgnb_added_success_rate_num": "long",
+          "5g_sgnb_drb_addition_success_rate_den": "long",
+          "5g_sgnb_drb_addition_success_rate_num": "long",
           "sqa_5g_sgnb_added_success_rate": "float",
           "sqa_5g_sgnb_drb_addition_success_rate": "float",
-          "5g_avg_uplink_rssi_huaw": "long",
-          "5g_cce_utilization_den_huaw": "long",
-          "5g_cce_utilization_num_huaw": "float",
-          "5g_cell_downlink_avg_throughput_den_huaw": "float",
-          "5g_cell_downlink_avg_throughput_num_huaw": "long",
-          "5g_cell_uplink_avg_throughput_den_huaw": "float",
-          "5g_cell_uplink_avg_throughput_num_huaw": "long",
-          "5g_downlink_resource_block_utilization_rate_den_huaw": "long",
-          "5g_downlink_resource_block_utilization_rate_num_huaw": "float",
-          "5g_initial_downlink_bler_den_huaw": "long",
-          "5g_initial_downlink_bler_num_huaw": "long",
-          "5g_initial_uplink_bler_den_huaw": "long",
-          "5g_initial_uplink_bler_num_huaw": "long",
-          "5g_uplink_resource_block_utilization_den_huaw": "long",
-          "5g_uplink_resource_block_utilization_num_huaw": "float",
-          "5g_user_downlink_avg_throughput_den_huaw": "long",
-          "5g_user_downlink_avg_throughput_num_huaw": "long",
-          "5g_user_uplink_avg_throughput_den_huaw": "long",
-          "5g_user_uplink_avg_throughput_num_huaw": "float",
+          "5g_avg_uplink_rssi": "long",
+          "5g_cce_utilization_den": "long",
+          "5g_cce_utilization_num": "float",
+          "5g_cell_downlink_avg_throughput_den": "float",
+          "5g_cell_downlink_avg_throughput_num": "long",
+          "5g_cell_uplink_avg_throughput_den": "float",
+          "5g_cell_uplink_avg_throughput_num": "long",
+          "5g_downlink_resource_block_utilization_rate_den": "long",
+          "5g_downlink_resource_block_utilization_rate_num": "float",
+          "5g_initial_downlink_bler_den": "long",
+          "5g_initial_downlink_bler_num": "long",
+          "5g_initial_uplink_bler_den": "long",
+          "5g_initial_uplink_bler_num": "long",
+          "5g_uplink_resource_block_utilization_den": "long",
+          "5g_uplink_resource_block_utilization_num": "float",
+          "5g_user_downlink_avg_throughput_den": "long",
+          "5g_user_downlink_avg_throughput_num": "long",
+          "5g_user_uplink_avg_throughput_den": "long",
+          "5g_user_uplink_avg_throughput_num": "float",
           "sqa_5g_initial_downlink_bler": "float",
           "sqa_5g_initial_uplink_bler": "float",
           "_c54": "string"
@@ -142,7 +142,7 @@
       "parameters": {
         "report_content": "Warning summary",
         "insights_report_parameters": {
-          "target_column": "5g_sgnb_abnormal_release_rate_num_huaw",
+          "target_column": "5g_sgnb_abnormal_release_rate_num",
           "problem_type": "Regression"
         }
       },
@@ -1545,7 +1545,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_avg_ca_users_huaw": {
+            "5g_avg_ca_users": {
               "labels": [
                 "0.0"
               ],
@@ -1567,7 +1567,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_downlink_traffic_volume_huaw": {
+            "5g_downlink_traffic_volume": {
               "labels": [
                 "0.0",
                 "5.0",
@@ -1787,7 +1787,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_number_of_users_huaw": {
+            "5g_number_of_users": {
               "labels": [
                 "0.0",
                 "0.01",
@@ -2007,7 +2007,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_connected_user_avg_huaw": {
+            "5g_rrc_connected_user_avg": {
               "labels": [
                 "0.0",
                 "0.01",
@@ -2227,7 +2227,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_connected_user_max_huaw": {
+            "5g_rrc_connected_user_max": {
               "labels": [
                 "1.0",
                 "2.0",
@@ -2295,7 +2295,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_uplink_traffic_volume_huaw": {
+            "5g_uplink_traffic_volume": {
               "labels": [
                 "0.0",
                 "5.0",
@@ -2515,7 +2515,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_nr_qos_flow_success_rate_den_huaw": {
+            "5g_nr_qos_flow_success_rate_den": {
               "labels": [
                 "0.0"
               ],
@@ -2537,7 +2537,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_nr_qos_flow_success_rate_num_huaw": {
+            "5g_nr_qos_flow_success_rate_num": {
               "labels": [
                 "0.0"
               ],
@@ -2559,7 +2559,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_pdu_session_establisment_success_rate_den_huaw": {
+            "5g_pdu_session_establisment_success_rate_den": {
               "labels": [
                 "0.0"
               ],
@@ -2581,7 +2581,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_pdu_session_establisment_success_rate_num_huaw": {
+            "5g_pdu_session_establisment_success_rate_num": {
               "labels": [
                 "0.0"
               ],
@@ -2603,7 +2603,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rach_contention_rate_den_huaw": {
+            "5g_rach_contention_rate_den": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -2823,7 +2823,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rach_contention_rate_num_huaw": {
+            "5g_rach_contention_rate_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -3043,7 +3043,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_restablishment_success_rate_den_huaw": {
+            "5g_rrc_restablishment_success_rate_den": {
               "labels": [
                 "0.0"
               ],
@@ -3065,7 +3065,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_restablishment_success_rate_num_huaw": {
+            "5g_rrc_restablishment_success_rate_num": {
               "labels": [
                 "0.0"
               ],
@@ -3087,7 +3087,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_setup_success_rate_den_huaw": {
+            "5g_rrc_setup_success_rate_den": {
               "labels": [
                 "0.0"
               ],
@@ -3109,7 +3109,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_rrc_setup_success_rate_num_huaw": {
+            "5g_rrc_setup_success_rate_num": {
               "labels": [
                 "0.0"
               ],
@@ -3155,7 +3155,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_abnormal_release_rate_den_huaw": {
+            "5g_sgnb_abnormal_release_rate_den": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -3375,7 +3375,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_abnormal_release_rate_num_huaw": {
+            "5g_sgnb_abnormal_release_rate_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -3499,7 +3499,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_added_success_rate_den_huaw": {
+            "5g_sgnb_added_success_rate_den": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -3719,7 +3719,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_added_success_rate_num_huaw": {
+            "5g_sgnb_added_success_rate_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -3939,7 +3939,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_drb_addition_success_rate_den_huaw": {
+            "5g_sgnb_drb_addition_success_rate_den": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -4159,7 +4159,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_sgnb_drb_addition_success_rate_num_huaw": {
+            "5g_sgnb_drb_addition_success_rate_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -4787,7 +4787,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_avg_uplink_rssi_huaw": {
+            "5g_avg_uplink_rssi": {
               "labels": [
                 "-97.0",
                 "-98.0",
@@ -4885,7 +4885,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cce_utilization_den_huaw": {
+            "5g_cce_utilization_den": {
               "labels": [
                 "17.0",
                 "54.0",
@@ -4915,7 +4915,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cce_utilization_num_huaw": {
+            "5g_cce_utilization_num": {
               "labels": [
                 "1.0",
                 "2.0",
@@ -5135,7 +5135,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cell_downlink_avg_throughput_den_huaw": {
+            "5g_cell_downlink_avg_throughput_den": {
               "labels": [
                 "0.0",
                 "0.01",
@@ -5355,7 +5355,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cell_downlink_avg_throughput_num_huaw": {
+            "5g_cell_downlink_avg_throughput_num": {
               "labels": [
                 "0.0",
                 "672.0",
@@ -5575,7 +5575,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cell_uplink_avg_throughput_den_huaw": {
+            "5g_cell_uplink_avg_throughput_den": {
               "labels": [
                 "0.0",
                 "0.01",
@@ -5795,7 +5795,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_cell_uplink_avg_throughput_num_huaw": {
+            "5g_cell_uplink_avg_throughput_num": {
               "labels": [
                 "0.0",
                 "120.0",
@@ -6015,7 +6015,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_downlink_resource_block_utilization_rate_den_huaw": {
+            "5g_downlink_resource_block_utilization_rate_den": {
               "labels": [
                 "51.0",
                 "162.0",
@@ -6047,7 +6047,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_downlink_resource_block_utilization_rate_num_huaw": {
+            "5g_downlink_resource_block_utilization_rate_num": {
               "labels": [
                 "2.31",
                 "4.88",
@@ -6267,7 +6267,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_initial_downlink_bler_den_huaw": {
+            "5g_initial_downlink_bler_den": {
               "labels": [
                 "0.0",
                 "5.0",
@@ -6487,7 +6487,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_initial_downlink_bler_num_huaw": {
+            "5g_initial_downlink_bler_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -6707,7 +6707,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_initial_uplink_bler_den_huaw": {
+            "5g_initial_uplink_bler_den": {
               "labels": [
                 "0.0",
                 "95.0",
@@ -6927,7 +6927,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_initial_uplink_bler_num_huaw": {
+            "5g_initial_uplink_bler_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -7147,7 +7147,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_uplink_resource_block_utilization_den_huaw": {
+            "5g_uplink_resource_block_utilization_den": {
               "labels": [
                 "51.0",
                 "162.0",
@@ -7177,7 +7177,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_uplink_resource_block_utilization_num_huaw": {
+            "5g_uplink_resource_block_utilization_num": {
               "labels": [
                 "23.0",
                 "21.0",
@@ -7397,7 +7397,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_user_downlink_avg_throughput_den_huaw": {
+            "5g_user_downlink_avg_throughput_den": {
               "labels": [
                 "0.0",
                 "500.0",
@@ -7617,7 +7617,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_user_downlink_avg_throughput_num_huaw": {
+            "5g_user_downlink_avg_throughput_num": {
               "labels": [
                 "0.0",
                 "1.0",
@@ -7837,7 +7837,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_user_uplink_avg_throughput_den_huaw": {
+            "5g_user_uplink_avg_throughput_den": {
               "labels": [
                 "0.0",
                 "500.0",
@@ -8057,7 +8057,7 @@
               "datetime_rows_parsed": 10000,
               "nrows": 108000
             },
-            "5g_user_uplink_avg_throughput_num_huaw": {
+            "5g_user_uplink_avg_throughput_num": {
               "labels": [
                 "0.0",
                 "0.04",
@@ -8660,49 +8660,49 @@
             "5g_mobility_mwc_1": "numeric",
             "5g_retainability_mwc_1": "binary",
             "number_of_5g_users": "numeric",
-            "5g_avg_ca_users_huaw": "numeric",
-            "5g_downlink_traffic_volume_huaw": "numeric",
-            "5g_number_of_users_huaw": "numeric",
-            "5g_rrc_connected_user_avg_huaw": "numeric",
-            "5g_rrc_connected_user_max_huaw": "numeric",
-            "5g_uplink_traffic_volume_huaw": "numeric",
-            "5g_nr_qos_flow_success_rate_den_huaw": "numeric",
-            "5g_nr_qos_flow_success_rate_num_huaw": "numeric",
-            "5g_pdu_session_establisment_success_rate_den_huaw": "numeric",
-            "5g_pdu_session_establisment_success_rate_num_huaw": "numeric",
-            "5g_rach_contention_rate_den_huaw": "numeric",
-            "5g_rach_contention_rate_num_huaw": "numeric",
-            "5g_rrc_restablishment_success_rate_den_huaw": "numeric",
-            "5g_rrc_restablishment_success_rate_num_huaw": "numeric",
-            "5g_rrc_setup_success_rate_den_huaw": "numeric",
-            "5g_rrc_setup_success_rate_num_huaw": "numeric",
+            "5g_avg_ca_users": "numeric",
+            "5g_downlink_traffic_volume": "numeric",
+            "5g_number_of_users": "numeric",
+            "5g_rrc_connected_user_avg": "numeric",
+            "5g_rrc_connected_user_max": "numeric",
+            "5g_uplink_traffic_volume": "numeric",
+            "5g_nr_qos_flow_success_rate_den": "numeric",
+            "5g_nr_qos_flow_success_rate_num": "numeric",
+            "5g_pdu_session_establisment_success_rate_den": "numeric",
+            "5g_pdu_session_establisment_success_rate_num": "numeric",
+            "5g_rach_contention_rate_den": "numeric",
+            "5g_rach_contention_rate_num": "numeric",
+            "5g_rrc_restablishment_success_rate_den": "numeric",
+            "5g_rrc_restablishment_success_rate_num": "numeric",
+            "5g_rrc_setup_success_rate_den": "numeric",
+            "5g_rrc_setup_success_rate_num": "numeric",
             "5g_sgnb_abnormal_release_rate": "binary",
-            "5g_sgnb_abnormal_release_rate_den_huaw": "numeric",
-            "5g_sgnb_added_success_rate_den_huaw": "numeric",
-            "5g_sgnb_added_success_rate_num_huaw": "numeric",
-            "5g_sgnb_drb_addition_success_rate_den_huaw": "numeric",
-            "5g_sgnb_drb_addition_success_rate_num_huaw": "numeric",
+            "5g_sgnb_abnormal_release_rate_den": "numeric",
+            "5g_sgnb_added_success_rate_den": "numeric",
+            "5g_sgnb_added_success_rate_num": "numeric",
+            "5g_sgnb_drb_addition_success_rate_den": "numeric",
+            "5g_sgnb_drb_addition_success_rate_num": "numeric",
             "sqa_5g_sgnb_added_success_rate": "numeric",
             "sqa_5g_sgnb_drb_addition_success_rate": "numeric",
-            "5g_avg_uplink_rssi_huaw": "numeric",
-            "5g_cce_utilization_den_huaw": "numeric",
-            "5g_cce_utilization_num_huaw": "numeric",
-            "5g_cell_downlink_avg_throughput_den_huaw": "numeric",
-            "5g_cell_downlink_avg_throughput_num_huaw": "numeric",
-            "5g_cell_uplink_avg_throughput_den_huaw": "numeric",
-            "5g_cell_uplink_avg_throughput_num_huaw": "numeric",
-            "5g_downlink_resource_block_utilization_rate_den_huaw": "numeric",
-            "5g_downlink_resource_block_utilization_rate_num_huaw": "numeric",
-            "5g_initial_downlink_bler_den_huaw": "numeric",
-            "5g_initial_downlink_bler_num_huaw": "numeric",
-            "5g_initial_uplink_bler_den_huaw": "numeric",
-            "5g_initial_uplink_bler_num_huaw": "numeric",
-            "5g_uplink_resource_block_utilization_den_huaw": "numeric",
-            "5g_uplink_resource_block_utilization_num_huaw": "numeric",
-            "5g_user_downlink_avg_throughput_den_huaw": "numeric",
-            "5g_user_downlink_avg_throughput_num_huaw": "numeric",
-            "5g_user_uplink_avg_throughput_den_huaw": "numeric",
-            "5g_user_uplink_avg_throughput_num_huaw": "numeric",
+            "5g_avg_uplink_rssi": "numeric",
+            "5g_cce_utilization_den": "numeric",
+            "5g_cce_utilization_num": "numeric",
+            "5g_cell_downlink_avg_throughput_den": "numeric",
+            "5g_cell_downlink_avg_throughput_num": "numeric",
+            "5g_cell_uplink_avg_throughput_den": "numeric",
+            "5g_cell_uplink_avg_throughput_num": "numeric",
+            "5g_downlink_resource_block_utilization_rate_den": "numeric",
+            "5g_downlink_resource_block_utilization_rate_num": "numeric",
+            "5g_initial_downlink_bler_den": "numeric",
+            "5g_initial_downlink_bler_num": "numeric",
+            "5g_initial_uplink_bler_den": "numeric",
+            "5g_initial_uplink_bler_num": "numeric",
+            "5g_uplink_resource_block_utilization_den": "numeric",
+            "5g_uplink_resource_block_utilization_num": "numeric",
+            "5g_user_downlink_avg_throughput_den": "numeric",
+            "5g_user_downlink_avg_throughput_num": "numeric",
+            "5g_user_uplink_avg_throughput_den": "numeric",
+            "5g_user_uplink_avg_throughput_num": "numeric",
             "sqa_5g_initial_downlink_bler": "numeric",
             "sqa_5g_initial_uplink_bler": "numeric",
             "_c54": "categorical"
@@ -224739,50 +224739,50 @@
           "column_to_drop": [
             "cellname_nrcell",
             "_c54",
-            "5g_downlink_resource_block_utilization_rate_num_huaw",
+            "5g_downlink_resource_block_utilization_rate_num",
             "5g_mobility_mwc_1",
-            "5g_number_of_users_huaw",
-            "5g_rrc_connected_user_avg_huaw",
-            "5g_uplink_resource_block_utilization_num_huaw",
-            "5g_cell_downlink_avg_throughput_den_huaw",
-            "5g_cell_uplink_avg_throughput_den_huaw",
+            "5g_number_of_users",
+            "5g_rrc_connected_user_avg",
+            "5g_uplink_resource_block_utilization_num",
+            "5g_cell_downlink_avg_throughput_den",
+            "5g_cell_uplink_avg_throughput_den",
             "sqa_5g_initial_downlink_bler",
             "sqa_5g_initial_uplink_bler",
             "sqa_5g_sgnb_added_success_rate",
             "sqa_5g_sgnb_drb_addition_success_rate",
             "5g_availability_mwc_1",
-            "5g_cce_utilization_den_huaw",
-            "5g_avg_uplink_rssi_huaw",
-            "5g_avg_ca_users_huaw",
-            "5g_user_uplink_avg_throughput_num_huaw",
-            "5g_downlink_resource_block_utilization_rate_den_huaw",
-            "5g_downlink_traffic_volume_huaw",
-            "5g_initial_downlink_bler_den_huaw",
-            "5g_initial_downlink_bler_num_huaw",
-            "5g_initial_uplink_bler_den_huaw",
-            "5g_initial_uplink_bler_num_huaw",
-            "5g_nr_qos_flow_success_rate_den_huaw",
-            "5g_nr_qos_flow_success_rate_num_huaw",
-            "5g_pdu_session_establisment_success_rate_den_huaw",
-            "5g_pdu_session_establisment_success_rate_num_huaw",
+            "5g_cce_utilization_den",
+            "5g_avg_uplink_rssi",
+            "5g_avg_ca_users",
+            "5g_user_uplink_avg_throughput_num",
+            "5g_downlink_resource_block_utilization_rate_den",
+            "5g_downlink_traffic_volume",
+            "5g_initial_downlink_bler_den",
+            "5g_initial_downlink_bler_num",
+            "5g_initial_uplink_bler_den",
+            "5g_initial_uplink_bler_num",
+            "5g_nr_qos_flow_success_rate_den",
+            "5g_nr_qos_flow_success_rate_num",
+            "5g_pdu_session_establisment_success_rate_den",
+            "5g_pdu_session_establisment_success_rate_num",
             "5g_retainability_mwc_1",
-            "5g_rrc_connected_user_max_huaw",
-            "5g_rrc_restablishment_success_rate_den_huaw",
-            "5g_rrc_restablishment_success_rate_num_huaw",
-            "5g_rrc_setup_success_rate_den_huaw",
-            "5g_rrc_setup_success_rate_num_huaw",
-            "5g_sgnb_added_success_rate_den_huaw",
-            "5g_sgnb_added_success_rate_num_huaw",
-            "5g_sgnb_drb_addition_success_rate_den_huaw",
-            "5g_sgnb_drb_addition_success_rate_num_huaw",
-            "5g_uplink_resource_block_utilization_den_huaw",
-            "5g_uplink_traffic_volume_huaw",
-            "5g_user_downlink_avg_throughput_den_huaw",
-            "5g_user_downlink_avg_throughput_num_huaw",
-            "5g_user_uplink_avg_throughput_den_huaw",
-            "5g_rach_contention_rate_den_huaw",
+            "5g_rrc_connected_user_max",
+            "5g_rrc_restablishment_success_rate_den",
+            "5g_rrc_restablishment_success_rate_num",
+            "5g_rrc_setup_success_rate_den",
+            "5g_rrc_setup_success_rate_num",
+            "5g_sgnb_added_success_rate_den",
+            "5g_sgnb_added_success_rate_num",
+            "5g_sgnb_drb_addition_success_rate_den",
+            "5g_sgnb_drb_addition_success_rate_num",
+            "5g_uplink_resource_block_utilization_den",
+            "5g_uplink_traffic_volume",
+            "5g_user_downlink_avg_throughput_den",
+            "5g_user_downlink_avg_throughput_num",
+            "5g_user_uplink_avg_throughput_den",
+            "5g_rach_contention_rate_den",
             "5g_sgnb_abnormal_release_rate",
-            "5g_sgnb_abnormal_release_rate_den_huaw"
+            "5g_sgnb_abnormal_release_rate_den"
           ]
         }
       },
@@ -224901,7 +224901,7 @@
       "parameters": {
         "operator": "Rename column",
         "rename_column_parameters": {
-          "input_column": "5g_rach_contention_rate_num_huaw",
+          "input_column": "5g_rach_contention_rate_num",
           "new_name": "contention_rate"
         },
         "drop_column_parameters": {}
@@ -224951,7 +224951,7 @@
       "parameters": {
         "operator": "Rename column",
         "rename_column_parameters": {
-          "input_column": "5g_cce_utilization_num_huaw",
+          "input_column": "5g_cce_utilization_num",
           "new_name": "utilization"
         },
         "drop_column_parameters": {}
@@ -224976,12 +224976,12 @@
       "parameters": {
         "operator": "Rename column",
         "rename_column_parameters": {
-          "input_column": "5g_cell_downlink_avg_throughput_num_huaw",
+          "input_column": "5g_cell_downlink_avg_throughput_num",
           "new_name": "downlink_throughput"
         },
         "drop_column_parameters": {
           "column_to_drop": [
-            "5g_cell_uplink_avg_throughput_num_huaw"
+            "5g_cell_uplink_avg_throughput_num"
           ]
         }
       },
@@ -225005,7 +225005,7 @@
       "parameters": {
         "operator": "Rename column",
         "rename_column_parameters": {
-          "input_column": "5g_cell_uplink_avg_throughput_num_huaw",
+          "input_column": "5g_cell_uplink_avg_throughput_num",
           "new_name": "uplink_throughput"
         },
         "drop_column_parameters": {}
@@ -225055,10 +225055,10 @@
       "parameters": {
         "operator": "Python (Pandas)",
         "pandas_parameters": {
-          "code": "# Table is available as variable `df`\ndf['anomaly'] = 0\n\ndf.loc[df['5g_sgnb_abnormal_release_rate_num_huaw']>0, 'anomaly'] = 1\n\ndf = df.drop(['5g_sgnb_abnormal_release_rate_num_huaw'], axis=1)"
+          "code": "# Table is available as variable `df`\ndf['anomaly'] = 0\n\ndf.loc[df['5g_sgnb_abnormal_release_rate_num']>0, 'anomaly'] = 1\n\ndf = df.drop(['5g_sgnb_abnormal_release_rate_num'], axis=1)"
         },
         "pyspark_parameters": {
-          "code": "# Table is available as variable `df`\ndf['anomaly'] = 0\n\ndf.loc[df['5g_sgnb_abnormal_release_rate_num_huaw']>0, 'anomaly'] = 1\n\ndf = df.drop(['5g_sgnb_abnormal_release_rate_num_huaw'], axis=1)"
+          "code": "# Table is available as variable `df`\ndf['anomaly'] = 0\n\ndf.loc[df['5g_sgnb_abnormal_release_rate_num']>0, 'anomaly'] = 1\n\ndf = df.drop(['5g_sgnb_abnormal_release_rate_num'], axis=1)"
         },
         "name": "impute anomaly"
       },

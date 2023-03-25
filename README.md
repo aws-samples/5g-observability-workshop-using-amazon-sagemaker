@@ -43,7 +43,7 @@ To get started, please clone this workshop repo:
 
 ```
 
-git clone 
+git clone https://github.com/aws-samples/5g-observability-workshop-using-amazon-sagemaker.git
 
 ```
 ---

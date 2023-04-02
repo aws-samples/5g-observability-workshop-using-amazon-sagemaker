@@ -30,11 +30,16 @@ feature_group = FeatureGroup(name=args.feature_group_name, sagemaker_session=fea
 
 table_name = (
     feature_group.describe()["OfflineStoreConfig"]["DataCatalogConfig"]["TableName"]
+
 )
 
 print(f'table_name: {table_name}')
 
-feature_group_s3_prefix = f'{args.bucket_prefix}/{account_id}/sagemaker/{region}/offline-store/{table_name}/data/year={now.year}/month={now.strftime("%m")}/day={now.strftime("%d")}'
+table_prefix = table_name.replace("_", "-")
+
+print(f'table_prefix: {table_prefix}')
+
+feature_group_s3_prefix = f'{args.bucket_prefix}/{account_id}/sagemaker/{region}/offline-store/{table_prefix}/data/year={now.year}/month={now.strftime("%m")}/day={now.strftime("%d")}'
 
 print(f'feature_group_s3_prefix: {feature_group_s3_prefix}')
 

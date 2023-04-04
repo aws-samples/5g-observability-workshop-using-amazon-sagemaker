@@ -18,7 +18,7 @@
   ],
   "nodes": [
     {
-      "node_id": "49a6366c-1595-41f2-b6df-b60581fa78b1",
+      "node_id": "16c7add3-4038-44df-a9db-990bde00aa38",
       "type": "SOURCE",
       "operator": "sagemaker.s3_source_0.1",
       "parameters": {
@@ -29,7 +29,7 @@
           "description": null,
           "s3ExecutionContext": {
             "__typename": "S3ExecutionContext",
-            "s3Uri": "s3://sagemaker-us-west-2-376678947624/telco-5g-observability/data/raw/{{dataset_param}}",
+            "s3Uri": "s3://sagemaker-us-west-2-376678947624/telco-5g-observability/data/raw/5gcell.csv",
             "s3ContentType": "csv",
             "s3HasHeader": true,
             "s3FieldDelimiter": ",",
@@ -59,7 +59,7 @@
       "inputs": [
         {
           "name": "df",
-          "node_id": "49a6366c-1595-41f2-b6df-b60581fa78b1",
+          "node_id": "16c7add3-4038-44df-a9db-990bde00aa38",
           "output_name": "default"
         }
       ],

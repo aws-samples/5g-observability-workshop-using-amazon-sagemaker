@@ -95,11 +95,11 @@
       ]
     },
     {
-      "node_id": "82e0f932-629a-460e-a3a3-d077a7adbb21",
+      "node_id": "64bcb779-4d96-41ec-a0ca-580573240786",
       "type": "VISUALIZATION",
       "operator": "sagemaker.visualizations.data_insights_report_0.1",
       "parameters": {
-        "report_content": "Quick model",
+        "report_content": "Warning summary",
         "insights_report_parameters": {
           "target_column": "anomaly",
           "problem_type": "Classification"
@@ -105623,45 +105623,6 @@
       ]
     },
     {
-      "node_id": "bb9ba800-8bda-4356-8266-4e7820cb623e",
-      "type": "TRANSFORM",
-      "operator": "sagemaker.spark.handle_missing_0.1",
-      "parameters": {
-        "operator": "Impute",
-        "impute_parameters": {
-          "column_type": "Categorical",
-          "categorical_parameters": {
-            "input_column": [
-              "cellname_nrcell"
-            ]
-          },
-          "numeric_parameters": {
-            "strategy": "Approximate Median"
-          }
-        }
-      },
-      "trained_parameters": {
-        "impute_parameters": {
-          "categorical_parameters": {
-            "_hash": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
-            "impute_value": "ARENA1MOAM-352_4RFS"
-          }
-        }
-      },
-      "inputs": [
-        {
-          "name": "df",
-          "node_id": "781445fd-e4be-4029-85be-3d7be725f5b5",
-          "output_name": "default"
-        }
-      ],
-      "outputs": [
-        {
-          "name": "default"
-        }
-      ]
-    },
-    {
       "node_id": "ed31077c-1a6c-47ff-b6f6-10d787508c9b",
       "type": "TRANSFORM",
       "operator": "sagemaker.spark.encode_categorical_0.1",
@@ -105690,7 +105651,7 @@
       "inputs": [
         {
           "name": "df",
-          "node_id": "bb9ba800-8bda-4356-8266-4e7820cb623e",
+          "node_id": "781445fd-e4be-4029-85be-3d7be725f5b5",
           "output_name": "default"
         }
       ],
@@ -106034,15 +105995,16 @@
       ]
     },
     {
-      "node_id": "584290d9-53d8-475e-91b1-7f0a707890c4",
+      "node_id": "d8a34e44-20c5-47c4-a850-e89499d7e726",
       "type": "DESTINATION",
-      "operator": "sagemaker.spark.featurestore_destination_0.1",
-      "name": "FeatureStore: 5gcell-anomaly-features",
+      "operator": "sagemaker.spark.s3_destination_0.1",
+      "name": "S3: combined.csv",
       "parameters": {
         "output_config": {
-          "feature_group_name": "5gcell-anomaly-features",
-          "offline_only": false,
-          "populate_event_time": true
+          "compression": "none",
+          "output_path": "s3://sagemaker-us-west-2-376678947624/telco-5g-observability/combined",
+          "output_content_type": "CSV",
+          "delimiter": ","
         }
       },
       "inputs": [
@@ -106059,16 +106021,15 @@
       ]
     },
     {
-      "node_id": "d8a34e44-20c5-47c4-a850-e89499d7e726",
+      "node_id": "12213a72-5ff5-474d-a4f8-7d8e6ec29a96",
       "type": "DESTINATION",
-      "operator": "sagemaker.spark.s3_destination_0.1",
-      "name": "S3: combined.csv",
+      "operator": "sagemaker.spark.featurestore_destination_0.1",
+      "name": "FeatureStore: 5gcell-anomaly-features",
       "parameters": {
         "output_config": {
-          "compression": "none",
-          "output_path": "s3://sagemaker-us-west-2-376678947624/telco-5g-observability/combined",
-          "output_content_type": "CSV",
-          "delimiter": ","
+          "feature_group_name": "5gcell-anomaly-features",
+          "offline_only": false,
+          "populate_event_time": true
         }
       },
       "inputs": [

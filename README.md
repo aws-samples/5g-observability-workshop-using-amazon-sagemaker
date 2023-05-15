@@ -2,15 +2,17 @@
 
 Welcome to our workshop! This is a comprehensive guide to help you understand the Machine Learning (ML) use case and get started with the workshop modules.
 
+For step-by-step instructions, please visit AWS Workshop Studio: [Link TBD]
+
 ---
 
 ## Introduction to the Use Case
 
-5G network slicing enables operators to create multiple independent logical networks for supporting different services over a common infrastructure. Each slice consists of a collection of virtual functions for a core network (CN) and a radio access network (RAN), and is customized to address the need of specific applications and services. 5G observability refers to the ability to monitor and analyze the performance of 5G networks. Due to the virtualization nature of network slicing, 5G observability is essential to assure and automate thousands of network slices in real-time.
+5G is transforming the way services are delivered to the end user. This calls for radically different approaches to network performance assurance. To support high speed connectivity to 5G-enabled devices available in the market today, NSA mode makes the most sense. 5G non-standalone (NSA) is a solution for 5G networks where the network is supported by the existing 4G infrastructure. This allows operators to leverage their existing network assets rather than deploy a completely new end-to-end 5G network.
 
-5G accessibility is a crucial KPI of 5G networks that has a significant impact on both user experience and customer loyalty. 5G accessibility depends on systems related to 5G radio parameters, random access control, paging control, and admission control. By monitoring the parameters of the above systems, we can predict anomalies in 5G accessibility. This will allow the operators to proactively perform maintenance and prevent potential issues that may lead to customer dissatisfaction and service churn.
+5G non-standalone uses a 4G LTE core with a 5G RAN (radio access network). User equipment's (UEs) have dual connectivity between LTE and 5G. The inability to connect to 5G is represented by the abnormal release of the connection with 5G sgNB. This can lead to poor user experience. In this workshop, we use abnormal release rate from sample NSA 5G RAN dataset to determine such drops as anomalies and train a classification model to detect connectivity drops under known network utilization, contention rates, accessibility, health index and throughput parameters. This usecase is part of 5G performance assurance to detect possible loss in connectivity to 5G radio based on SLAs.
 
-In this workshop, we use a dataset monitored at different cell towers to build a machine learning model for predicting anomalies in 5G accessibility. The dataset includes a wide set of features. Here, we explain the associated terminology in the feature set:
+In this workshop, we use a 5G NSA RAN dataset monitored at different cell towers to build a machine learning model for detect anomalies resulting from connectivity loss. The dataset includes a wide set of features. Here, we explain the associated terminology in the feature set:
 
 |Abbreviation|Stands for|Description|
 |:----|:----|:----|
@@ -30,10 +32,11 @@ In this workshop, we use a dataset monitored at different cell towers to build a
 
 Before you begin, please make sure you read the following prerequisites:
 
-1. Basic knowledge of machine learning concepts and techniques.
-2. Understanding of Python programming language and its libraries, such as NumPy, Pandas, and Scikit-learn.
-3. Familiarity with cloud computing platforms and services, especially Amazon Web Services (AWS).
-4. An AWS account with the necessary permissions to create and configure Amazon SageMaker instances, roles, and resources.
+1. Familiarity with telecom 5G network performance and service assurance 
+2. Basic knowledge of machine learning concepts and techniques.
+3. Understanding of Python programming language and its libraries, such as NumPy, Pandas, and Scikit-learn.
+4. Familiarity with cloud computing platforms and services, especially Amazon Web Services (AWS).
+5. An AWS account with the necessary permissions to create and configure Amazon SageMaker instances, roles, and resources.
 
 If you do not have experience with these prerequisites, we recommend that you complete some basic online courses or tutorials before attending the workshop to get the most out of the training. Additionally, we recommend reviewing the Amazon SageMaker documentation and examples beforehand to become familiar with the service and its features.
 

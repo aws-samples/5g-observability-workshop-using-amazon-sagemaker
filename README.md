@@ -2,7 +2,7 @@
 
 Welcome to our workshop! This is a comprehensive guide to help you understand the Machine Learning (ML) use case and get started with the workshop modules.
 
-For step-by-step instructions, please visit AWS Workshop Studio: [Link TBD]
+For step-by-step instructions, please visit AWS Workshop Studio: https://catalog.us-east-1.prod.workshops.aws/workshops/5ea0503b-e142-420d-b7ed-3b114bf77cdf/en-US
 
 ---
 
